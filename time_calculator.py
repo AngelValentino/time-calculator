@@ -61,7 +61,7 @@ def add_time(start, duration, day = None):
     total_minutes = start_minutes + added_duration_minutes
 
     # Calculate the number of days passed
-    # Divides the total minures by 1440 (the number of minutes in a day)
+    # Divides the total minutes by 1440 (the number of minutes in a day)
     days_passed = total_minutes // 1440
     # Calculate the remaining minutes after accounting for the full days
     remaining_minutes = total_minutes % 1440
